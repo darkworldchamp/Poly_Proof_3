@@ -1,8 +1,8 @@
-# FirstCircuit on Sepolia Testnet 🐱
+# MYCircuit on Sepolia Testnet
 
 ## Introduction
 
-This project involves the deployment of a custom circuit written in Circom on the Ethereum Sepolia testnet. The circuit includes basic logic gates (AND, OR, NOT) and combines them to form a simple logical operation. The primary functionality of the circuit is encapsulated in the `FirstCircuit` template.
+This project involves the deployment of a custom circuit written in Circom on the Ethereum Sepolia testnet. The circuit includes basic logic gates (AND, OR, NOT) and combines them to form a simple logical operation. The primary functionality of the circuit is encapsulated in the `MYCircuit` template.
 
 ## Circuit Description
 
