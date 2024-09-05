@@ -1,4 +1,4 @@
-# MYCircuit on Sepolia Testnet
+# ZK circuit implementaiton 
 
 ## Introduction
 
