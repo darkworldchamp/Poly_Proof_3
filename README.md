@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project involves the deployment of a custom circuit written in Circom on the Ethereum Sepolia testnet. The circuit includes basic logic gates (AND, OR, NOT) and combines them to form a simple logical operation. The primary functionality of the circuit is encapsulated in the `MYCircuit` template.
+This project involves the deployment of a custom circuit written in Circom on the Ethereum Sepolia testnet. The circuit includes basic logic gates (AND, OR, NOT) and combines them to form a simple logical operation. The primary functionality of the circuit is encapsulated in the `Nikhils` template.
 
 ## Circuit Description
 
@@ -11,7 +11,7 @@ This project involves the deployment of a custom circuit written in Circom on th
 pragma circom 2.0.0;
 
 
-template FirstCircuit () {  
+template Nikhils () {  
    // input signals
    signal input a;
    signal input b;
@@ -64,7 +64,7 @@ template NOT() {
     out <== 1 + in - 2*in;
 }
 
-component main = FirstCircuit();
+component main = Nikhils();
 ```
 
 ### Install
@@ -145,5 +145,5 @@ To add a new circuit, you can run the `newcircuit` hardhat task to autogenerate 
 npx hardhat newcircuit --name newcircuit
 ```
 ## Contact 
-For any questions or inquiries, feel free to reach out via Mail(harshdeepsingh2809@gmail.com) or open an issue in the GitHub repository.
+For any questions or inquiries, feel free to reach out via Mail(sharmanikhil5388@gmail.com) or open an issue in the GitHub repository.
 
